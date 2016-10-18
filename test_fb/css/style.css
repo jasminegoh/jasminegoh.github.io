@@ -1,0 +1,21 @@
+	body {
+		margin: auto;
+		padding: 20px 10px 40px 10px
+		width: 600px;
+	}
+
+	section {
+		    background-color: #edf0f5 ;
+		    margin: auto;
+		    font-family: Helvetica;
+	}
+
+	#Birthday {
+			display: inline;
+	}
+
+
+	#Details {
+		display: inline;
+		width: 450px;
+	}
