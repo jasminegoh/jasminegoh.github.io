@@ -6,15 +6,15 @@ p.signup {
 
 
 p.free {
-    font-family: Helvetica;
-    margin-top: -35px;
-    margin-bottom: 20px;
+    	font-family: Helvetica;
+   	margin-top: -35px;
+    	margin-bottom: 20px;
 }
 
 
 div#form {
-	font-family: Helvetica #333333;
-    background-color: #edf0f5;
-    padding: 0px 40px 15px 60px;
-    margin: 130px 510px;
+	background-color: #edf0f5;
+    	width: 400px;
+    	padding: 0px 40px 15px 60px;
+    	margin: auto;
 }
