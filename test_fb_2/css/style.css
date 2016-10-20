@@ -68,7 +68,7 @@ select#year {
     padding: 5px;
 }
 
-p.why {
+span.why {
     color: #4464A7;
     font-family: Helvetica;
     font-size: 11px;
