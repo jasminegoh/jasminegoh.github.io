@@ -16,9 +16,40 @@
 <p class="free">It's free and always will be.</p>
 
 	<form>
-		<input type="text" name="firstname" placeholder="First Name">
-		<input type="text" name="lastname" placeholder="Last name">
+		<input type="text" id="fname" name="firstname" placeholder="First Name">
+		<input type="text" id="lname" name="lastname" placeholder="Last name">
+		<input type="text" id="emailmobile" name="emailmobile" placeholder="Email or mobile number">
+		<input type="text" id="reenter" name="reenter" placeholder="Re-enter email or mobile number">
+		<input type="text" id="npassword" name="npassword" placeholder="New Password">
 	</form>
+
+<p class="birthday">Birthday</p>
+
+<div id="birthday-details">
+	<select id="month" name="Month">
+	    <option value="month">Month</option>
+	</select>
+	  
+	<select id="day" name="Day">
+	    <option value="day">Day</option>
+	</select>
+	  
+	<select id="year" name="Year" style="">
+	    <option value="year">Year</option>
+	</select>
+</div>
+
+<p class="why">Why do I need to provide my <br>birthday?</p>  
+
+<div id="gender">
+	<input type="radio" id="gender" name="gender" value="female" checked> Female
+	<input type="radio" id="gender" name="gender" value="male" checked> Male
+</div>
+
+<p class="termspolicy">By clicking Sign Up, you agree to our <span class="terms">Terms</span> and that you have<br>
+read our <span class="terms">Data Policy</span>, including our <span class="terms">Cookie Use</span>.</p>
+
+<input type="submit" value="Sign Up">
 
 </div>
 
